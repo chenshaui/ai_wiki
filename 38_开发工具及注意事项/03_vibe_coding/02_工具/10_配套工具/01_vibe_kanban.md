@@ -1,4 +1,4 @@
-![](.01_vibe_kanban_images/d3ca190e.png)
+![](.01_vibe_kanban_images\d3ca190e.png)
 
 Vibe看板工具震撼发布一键掌握AI编程
 程序员现在将大部分时间用于规划、审查和协调任务。Vibe看板工具简化了这一流程，使您能够：
