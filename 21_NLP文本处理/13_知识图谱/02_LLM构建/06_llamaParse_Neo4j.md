@@ -39,11 +39,11 @@ nest_asyncio.apply()
 
 import os
 # API access to llama-cloud
-os.environ["LLAMA_CLOUD_API_KEY"] = "llx-Pd9FqzqbITfp7KXpB0YHWngqXK4GWZvB5BSAf9IoiNDBeie4"
+os.environ["LLAMA_CLOUD_API_KEY"] = os.environ.get("LLAMA_CLOUD_API_KEY", "")
 
 # Using OpenAI API for embeddings/llms
-#os.environ["OPENAI_API_KEY"] = "sk-OK5mvOSKVeRokboDB1eHrIuifAcUc6wAqU82ZgRVJMAg4tJ3"
-os.environ["MISTRAL_API_KEY"] = "q9ebyLLL3KoZTLAeb8I81doRLZK5SXNO"
+# os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "")
+os.environ["MISTRAL_API_KEY"] = os.environ.get("MISTRAL_API_KEY", "")
 ```
 
 ```bash
